@@ -1,0 +1,1 @@
+select a from (select a, count(*) as cnt from t group by a) as t1 where t1.cnt > 2
