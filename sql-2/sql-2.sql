@@ -1,3 +1,15 @@
+/*
+Существует таблица, в которой хранятся записи о неких событиях (например, выставки или фестивали).
+CREATE TABLE events (
+   id INTEGER PRIMARY KEY NOT NULL,
+   name CHARACTER VARYING(255),
+   begin_date TIMESTAMP(0) WITHOUT TIME ZONE,
+   end_date TIMESTAMP(0) WITHOUT TIME ZONE
+);
+Необходимо написать код, который выводил бы на экран события, которые проходят на этой неделе.
+*/
+
+
 use skytrack;
 
 drop table `events`;
